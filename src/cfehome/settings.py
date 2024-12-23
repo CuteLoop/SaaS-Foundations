@@ -56,7 +56,7 @@ if DEBUG:
         "localhost"
     ]
 
-CSRF_TRUSTED_ORIGINS = [ALLOWED_HOSTS]
+CSRF_TRUSTED_ORIGINS = ['saas-foundations-production-aef1.up.railway.app']
 
 
 # Application definition
