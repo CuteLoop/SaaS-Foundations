@@ -48,7 +48,7 @@ SECRET_KEY = config("DJANGO_SECRET_KEY")
 DEBUG = config("DJANGO_DEBUG", cast=bool)
 BASE_URL = config("BASE_URL", default=None)
 ALLOWED_HOSTS = [
-    ".railway.app" # https://saas.prod.railway.app
+    "saas-foundations-production-f66c.up.railway.app" # https://saas.prod.railway.app
 ]
 if DEBUG:
     ALLOWED_HOSTS += [
@@ -56,7 +56,7 @@ if DEBUG:
         "localhost"
     ]
 
-CSRF_TRUSTED_ORIGINS = ['saas-foundations-production-aef1.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['saas-foundations-production-f66c.up.railway.app']
 
 
 # Application definition
